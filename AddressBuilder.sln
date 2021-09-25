@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59B4A79D-9A02-4D3A-9398-9F6583D9D48C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D86F9299-2483-4504-B99D-5723F74ACA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBuilder.Tests.Unit", "tests\AddressBuilder.Tests.Unit\AddressBuilder.Tests.Unit.csproj", "{42E5DD66-2BC8-476C-953D-0FBBF1A0A25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBuilder", "src\AddressBuilder\AddressBuilder.csproj", "{AFE93EDF-FC06-4B75-BE96-7EC80FC49F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42E5DD66-2BC8-476C-953D-0FBBF1A0A25E} = {D86F9299-2483-4504-B99D-5723F74ACA66}
+		{AFE93EDF-FC06-4B75-BE96-7EC80FC49F00} = {59B4A79D-9A02-4D3A-9398-9F6583D9D48C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42E5DD66-2BC8-476C-953D-0FBBF1A0A25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E5DD66-2BC8-476C-953D-0FBBF1A0A25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E5DD66-2BC8-476C-953D-0FBBF1A0A25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E5DD66-2BC8-476C-953D-0FBBF1A0A25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE93EDF-FC06-4B75-BE96-7EC80FC49F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE93EDF-FC06-4B75-BE96-7EC80FC49F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE93EDF-FC06-4B75-BE96-7EC80FC49F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE93EDF-FC06-4B75-BE96-7EC80FC49F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
